@@ -1,0 +1,646 @@
+
+*{
+    
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+    
+}
+
+
+.navbar{
+    background-color: white;
+    color: black;
+    line-height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 45px;
+    width: 100%;
+    /* position: sticky;
+    top: 0;
+    */
+} 
+.checkbtn,#check{
+    display: none;
+}
+
+.right ul{
+    display: flex;
+    list-style: none;
+    line-height: 40px;
+    /* color: white; */
+}
+.navbar{
+    padding: 0;
+    margin: 0;
+    font-size: small;
+    font-style: none;
+
+}
+#shopping{ 
+    text-indent: 50px;
+    color:white;
+}
+.right ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 30px;
+    transition: all 1s;
+    line-height: 20px;
+}
+@media screen and (max-width:1166px) {
+    .list{
+        height: 100vh;
+        width: 100%;
+        background-color:#313031;
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        top: 80px;
+        left: 100%;
+        text-align: center;
+        transition: all 2s;
+    
+    }
+    .checkbtn{
+        display: block;
+
+    }
+    #check:checked~ul{
+            left: 0%;
+    }
+}
+    /* End Nav Bar */
+/*-----------------------------------------------------------------------------------------------------------
+    -----------------------------------------------------------------------------------------------------------  */
+
+.photo{
+    background-color: white;
+    height: 80%;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#ul1{
+    top: 10px;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: small;
+    margin: 2%;
+    padding: 1%;
+    height: 60px;
+    width: 900px;
+    left: 70%;   
+}
+section{
+    margin: 0;
+    padding: 0;
+    height: 30px;
+    width: 100%;
+    background-color:rgba(54, 54, 54, 0.089);
+}
+.checkbtnn,#checkk{
+    display: none;
+}
+
+@media screen and (max-width:1166px) {
+    #pho1{
+        height: 100vh;
+        width: 100%;
+        background-color:#313031;
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        top: 80px;
+        left: 100%;
+        text-align: center;
+        transition: all 2s;
+    
+    }
+    .checkbtnn{
+        display: block;
+
+    }
+    #checkk:checked~ul{
+            left: 0%;
+    }
+}
+@media screen and (min-width:300px) and (max-width:500px){
+   .photo {
+        height: 100px;
+        width: 100%;
+        top: 10;
+        left: 50px;
+        background-color: red;
+    }
+}
+@media screen and (min-width:500px) and (max-width:780px){
+    .photo{
+        height: 100px;
+        width: 100%;
+        top: 10;
+        left: 50px;
+        background-color:yellow;
+    }
+}
+/* ............................................................................................................. */
+#hh1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: smaller;
+    text-align: center;
+    font-style: normal;
+    opacity: 0.8;
+    background-color: rgba(235, 228, 228, 0.849);
+    color: black;
+
+}
+/* ******************************************************************************** */
+h4{
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;;
+    text-align: center;
+    font-size: 20px;
+    background-color: black;
+    color:rgb(98, 98, 110);
+     /* padding: 40px; */
+   
+}
+
+h1{
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: center;
+    font-size: 35px;
+    background-color: black;
+    color: whitesmoke;
+    /* padding: 20px; */
+}
+#pre{
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: center;
+    font-size: 15px;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    color: whitesmoke;
+    /* padding: 20px; */
+}
+.link{
+    background-color: black;
+    color:whitesmoke;
+    text-align: center;
+    /* padding: 20px; */
+}
+.link span{
+    padding: 15px;
+}
+.link a{
+    color: #2997ff;
+    font-size: 20px;
+    text-decoration: none;
+}
+.link a:hover{
+    cursor: pointer;
+}
+
+.photoo #img1{
+    height: 80%;
+    background-color: black;
+    display: block;
+    width: 45%;
+    top: 45%;
+    left: 28%;
+    position:absolute;
+    justify-content: center;
+}
+.photoo{
+    background-color: black;
+    height: 720px;
+    width: 100%;
+}
+/* ******************************************************************************** */
+#hhh{
+    color:black;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    /* opacity: 0.8; */
+    background-color: white;
+}
+.div3{
+    margin-top: 10%;
+    text-align: center;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: white;
+    /* opacity: 0.7; */
+
+    color: black;
+   
+}
+.div7{
+    text-align: center;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding: 08px;
+    font-size: 30px;
+    /* font-size: 72px; */
+    color: #2997ff;}
+.div5{
+    text-align: center;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    /* opacity: 0.7; */
+    background-color: white;
+    padding: 5px;
+    /* border: solid;
+    border-radius: 20px; */
+
+}
+.div6{
+    text-align: center;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: white;
+    padding: 10px; 
+}
+.iphone-12-mini{
+    display: flex;
+    justify-content: center;
+    position:relative;
+    height: 100%;
+    width: 100%;
+}
+aside{
+    margin-top:auto;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    align-items: center;
+    background-image: url("./iphone_se_hero__gd586pazxqqa_small_2x.jpg");
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 900px;
+    background-position: right top;
+    margin-left: 600px;
+    padding: 0%;
+    background-attachment: scroll;
+}
+#p1{
+   position: absolute;
+   left: 250px;
+   vertical-align: middle;
+   padding: 20px 0;
+   font-size: 50px;
+   color: #2997ff;
+}
+#p2{
+    position: absolute;
+    left: 345px;
+    vertical-align: middle;
+    padding: 124px 0;
+    font-size: 15px;
+    color: black;
+    opacity: 0.5;
+    border-radius: 16px 0;
+}
+#p3{
+    position: absolute;
+    left: 255px;
+    vertical-align: middle;
+    padding: 140px 0;
+    font-size: 22px;
+    color: black;
+    
+    border-radius: 16px;
+}
+.header1{
+    background-color: white;
+    height: 700px;
+    width: 100%;
+}
+
+.section2{
+    background-color: white;
+    height: 792px;
+    width: 100%;
+    position: static;
+}
+/* .guide {
+    width: 95%;
+    height: 800px;
+    background-image: url(./guided_tour__c40f88on9o8y_medium_2x.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    vertical-align: middle;
+    margin-left: 2%;
+  }
+  .guide div {
+    color: white;
+    font-size: 50px; 
+    top: 10%;
+    left: 200px;
+  }
+   */
+   #guide{
+    height: 700px;
+    border-radius: 50px;
+    position:absolute;
+    left: 7%;
+   }
+    #A{
+        color: white;
+        position: absolute;
+        margin-top: 20%;
+        left: 15%;
+        font-size: 25px;
+        font-weight: bold;
+        font-family:Helvetica,Helvetica,Arial,sans-serif;
+        z-index: 1;
+    }
+    .B{
+        font-weight:700;
+        color: white;
+        position: absolute;
+        margin-top: 22%;
+        left: 15%;
+        font-size: 40px;
+        font-family:Helvetica,Helvetica,Arial,sans-serif;
+        z-index: 1;
+    } .C{
+        font-weight:700;
+        color: white;
+        position: absolute;
+        margin-top: 25%;
+        left: 15%;
+        font-size: 40px;
+        font-family:Helvetica,Helvetica,Arial,sans-serif;
+        z-index: 1;
+    }
+/* ##################### */
+
+.brands{
+    background-color: white;
+    height: 500px;
+    width: 100%;
+}
+#which-iphone{
+  color: white;
+    font-weight: bold;
+    font-size: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.mini12{
+color: black;
+display: flex;
+justify-content: center;
+align-items: center;
+list-style: none;
+
+}
+.which{
+    margin: 5%;
+    flex-wrap: wrap;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0%;
+
+}
+
+table{
+    display: flex;
+    justify-content: space-around;
+    
+}
+#tradee{
+    color: black;
+    position: absolute;
+    left: 280px;
+    margin-top: 250px;
+    text-align: center;
+    align-items: center;
+    font-family:Helvetica,Helvetica,Arial,sans-serif;;
+    font-size: 20px;
+    /* left: 500px; */
+}
+#Exchange{
+    color: black;
+    background-color: white;
+    position: absolute;
+    left: 310px;
+    margin-top: 140px;
+    text-align: center;
+    align-items: center;
+    font-family:Helvetica,Helvetica,Arial,sans-serif;;
+    font-size: 40px;
+}
+.aa{
+    left: 180px;
+    margin-top: 20px;
+}
+
+#why-apple{
+    height: 600px;
+    width: 100%;
+}
+h6{
+    /* background-color: white; */
+    color: black;
+    font-size: 40%;
+    font-size: 20px;
+    z-index: 1;
+    position: absolute;
+    /* right: 150px; */
+    left:450px;
+    margin-top:200px;
+    font-family: Helvetica,Helvetica,Arial,sans-serif;
+}
+#buy{
+    position: absolute;
+    left: 450px;
+    margin-top: 240px;
+    left: 470px;
+    font-size: 50px;
+    font-family: Helvetica,Helvetica,Arial,sans-serif;
+}
+#youcan{
+    position: absolute;
+    left: 450px;
+    margin-top: 310px;
+    left: 500px;
+    font-size: 20px;
+    font-family: Helvetica,Helvetica,Arial,sans-serif;
+}
+a{
+    color: #06c;
+    position: absolute;
+    left: 620px;
+    margin-top: 420px;
+    text-align: center;
+    align-items: center;
+    font-family:Helvetica,Helvetica,Arial,sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    /* left: 500px; */
+}
+.Featured{
+    height: 100px;
+     width: 100%;
+     /* background-color: red; */
+}
+#freatured{
+    align-items: center;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 20px;
+    font-family:Helvetica,Helvetica,Arial,sans-serif;
+}
+.magsafe{
+    height: 480px;
+    width: 100%;
+    background-color:white;
+}
+#mag{
+    position: absolute;
+    left: 850px;
+    margin-top: 5%;
+    
+}
+#safe{
+    height: 400px;
+    width: 80%;
+}
+#magg{
+    position: absolute;
+    left: 450px;
+    margin-top: 140px;
+    left: 350px;
+    font-size: 60px;
+    font-family: Helvetica,Helvetica,Arial,sans-serif;
+    
+}
+#snap{
+    position: absolute;
+    left: 450px;
+    margin-top: 230px;
+    left: 315px;
+    font-size: 20px;
+    font-family: Helvetica,Helvetica,Arial,sans-serif;
+
+}
+
+.airtag{
+    height: 500px;
+    width: 100%;
+    background-color:white;
+    display: flex;
+    justify-content:space-around;
+}
+#airimg{
+    height: 500px;
+    width: 55%;
+    position: absolute;
+    right: 553px;
+   
+}
+#mahesh{
+    height: 500px;
+    width: 100%;
+    background-color: black;
+}
+#tag{
+    color: black;
+    position: absolute;
+    /* left-margin: 900px; */
+    margin-top: 100px;
+    margin-left: 800px ;
+    font-size: 60px;
+    font-weight: bold;
+    font-family: Helvetica,Helvetica,Arial,sans-serif;
+}
+#Attach{
+    font-size: 20px;
+    font-weight: none;
+    /* position: absolute; */
+    /* margin-right: 1px ; */
+}
+.air{
+    
+    background-color:none;
+    color: #1d1d1f;
+    position: absolute;
+    right: 10%;
+    font-size: 18px;
+    font-family:Helvetica,Helvetica,Arial,sans-serif; 
+    margin-top: 180px;
+    
+}
+.airr{
+    
+    background-color:none;
+    color: #1d1d1f;
+    position: absolute;
+    right: 10%;
+    font-size: 18px;
+    font-family:Helvetica,Helvetica,Arial,sans-serif; 
+    margin-top: 203px;
+    
+}
+.airrr{
+    
+    background-color:none;
+    color: #1d1d1f;
+    position: sticky;
+    right: 17%;
+    font-size: 18px;
+    font-family:Helvetica,Helvetica,Arial,sans-serif; 
+    margin-top: 227px;
+    
+}
+.Airpods{ 
+    height: 700px;
+    width: 100%;
+    background-color:white;
+}
+.pods{
+    height: 600px;
+    width: 100%;
+    margin-top: 7%;
+
+}
+#magic{
+    position: absolute;
+    font-size: 35px;
+    color: #1d1d1f;
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+    left: 42%;
+    margin-top: 20px;
+    font-family:Helvetica,Helvetica,Arial,sans-serif; 
+}
+#explore{
+    position: absolute;
+    font-size: 18px;
+    text-align: center;
+    align-items: center;
+    left: 41%;
+    margin-top: 8%;
+    font-family:Helvetica,Helvetica,Arial,sans-serif; 
+
+}
+a:hover{
+    text-decoration:underline;
+}
+

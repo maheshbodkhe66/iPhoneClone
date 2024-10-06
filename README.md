@@ -1,4 +1,4 @@
-# iPhone Website 
+# iPhone Website Clone 
 
 ## Overview
 

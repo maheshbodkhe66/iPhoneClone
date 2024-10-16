@@ -1,5 +1,4 @@
-# iPhone Website Clone.
-
+# iPhone Website Clone
 ## Overview
 
 This project is a clone of an iPhone website, showcasing the design and features of Apple's iPhone product pages. The clone demonstrates web development skills including HTML, CSS, JavaScript, and Bootstrap. It is intended for educational purposes to understand how modern e-commerce and product showcase websites are structured and designed.

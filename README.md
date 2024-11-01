@@ -11,7 +11,7 @@ This project is a clone of an iPhone website, showcasing the design and features
 - **Basic Interactivity**: Includes hover effects, image sliders, and interactive elements to enhance user engagement.
 
 
-## Usage
+## Usage.
 
 1. **Homepage**: The main page displays a hero section with an iPhone image, a navigation bar, and various product feature sections.
 2. **Product Sections**: Each section provides information about the iPhone's features, specifications, and images.

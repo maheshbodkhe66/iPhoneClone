@@ -17,7 +17,7 @@ This project is a clone of an iPhone website, showcasing the design and features
 2. **Product Sections**: Each section provides information about the iPhone's features, specifications, and images.
 3. **Navigation**: The navigation bar allows users to explore different sections of the website.
 
-## Technologies Used
+## Technologies Used.
 
 - **HTML**: Markup language used for structuring the content.
 - **CSS**: Stylesheet language used for designing the visual layout.

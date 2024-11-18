@@ -24,7 +24,7 @@ This project is a clone of an iPhone website, showcasing the design and features
 - **Bootstrap**: Framework used for responsive design and pre-built components.
 - **Responsive Design**: CSS media queries and Bootstrap grid system for mobile and tablet views.
 
-## Contributing..
+## Contributing.
 
 Contributions are welcome! If you would like to contribute to this project, please fork the repository and submit a pull request with your changes.
 
